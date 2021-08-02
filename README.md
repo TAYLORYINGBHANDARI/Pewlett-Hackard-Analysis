@@ -26,18 +26,20 @@ After that, write a report to summarizes our analysis and helps prepare Bobby’
 
 ## Results
 
-* From the retirement_titles.csv we can see every eligible for retirement employee their past and current working experiences and timeframes.
+* From the retirement_titles.csv we can see every eligible retirement employee of their past, current working experiences and timeframes.
+
+![image](https://user-images.githubusercontent.com/85265816/127802416-d916d946-7c74-4045-9986-6e8b1ff40b60.png)
 
 
-
-* From the unique_titles.csv we can see every eligible for retirement employee their current working titles/expeirences.
+* From the unique_titles.csv we can see every eligible retirement employee of their current working titles/expeirences.
 * From the retiring_titles shows us the Senior Engineer and Senior Staff are the majority going to retire.
     Senior_Engineer/total_retirement_emp =  29414/90,398 = 32% 
+    
     Senior_Staff/total_retirement_emp = 31%
     
     
-* From mentorship_eligibilty.csv. we can see the overview of all the eligible mentorship employee informations (name, title, emp_no,job_tilte,from_date,to_date).
-    we can also based on mentorship_eligibilty table, figure out there are 1549 total eligible employee for mentorship program. Senior staff(569) and senior engineer (529) are the most eligible group.
+* From mentorship_eligibilty.csv. we can see the overview of all the eligible mentorship employee informations (name, title, emp_no,job_tilte,from_date,to_date).       we can also based on mentorship_eligibilty table, figure out there are 1549 total eligible employee for mentorship program. Senior staffs(569) and senior engineers (529) are the most eligible group.
+   
     
     ![image](https://user-images.githubusercontent.com/85265816/127754801-cf43a98f-e51d-4138-8edb-b2442fade899.png)
 
@@ -55,8 +57,8 @@ Pewlett Hackard Company will  have 90,398 vacant position and facing 30% retirin
 
 <img width="379" alt="image" src="https://user-images.githubusercontent.com/85265816/127754766-661a0ce7-52af-4990-adc6-9ddb7f13bf0e.png">
 
-There will be a low eligible amount for mentorship program (1549). The good part is most of the mmentor eligile employees are senior staffa nd senior engineer.
-They are the major force and sure will continue to mentor next generation employees and drive up the company revenue.
+There will be a low eligible amount for mentorship program (1549). The good part is most of the mmentor eligile employees are senior staff and senior engineer.
+They are the major force and sure will continue to mentor next generation employees and hope continue to drive up revenues for company.
 
 <img width="444" alt="image" src="https://user-images.githubusercontent.com/85265816/127754769-ed3a38fa-b3f0-4591-ac85-6cb376968a47.png">
 

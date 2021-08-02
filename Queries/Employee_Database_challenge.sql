@@ -1,5 +1,5 @@
-SELECT*FROM employees
-SELECT*FROM titles
+SELECT*FROM retiring_emp_by_title
+SELECT*FROM retiring_titles
 
 SELECT em.emp_no,em.first_name,em.last_name,
 	 ti.title,ti.from_date,ti.to_date
@@ -39,4 +39,29 @@ INNER JOIN titles as ti
 WHERE (em.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 AND (ti.to_date='9999-01-01')
 ORDER BY em.emp_no ASC;
+
+SELECT*FROM mentorshop_eligibility
+
+---count total emp on retiring titles
+
+SELECT SUM(count) COUNT
+--INTO 
+FROM retiring_titles
+
+--count total emp on mentorship_eligibilty
+SELECT COUNT(emp_no) emp_no
+FROM mentorshop_eligibility;
+---total emp in whole company
+SELECT count(emp_no) emp_no
+FROM employees
+
+----count total emp on mentorship_eligibilty by title
+SELECT COUNT(emp_no) emp_no, title
+--INTO 
+FROM mentorshop_eligibility
+GROUP BY title
+ORDER BY COUNT(title) DESC;
+
+
+
 
